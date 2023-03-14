@@ -19,7 +19,7 @@ This is an example of global styling. CSS rules will be applied to all elements 
 
 We use [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet) to apply isolated styling to a specific component.
 
-Take an example of [OnBoarding page](src/pages/OnBoarding/index.tsx), we can see the import of isolated CSS module:
+Take an example of [OnBoarding page](https://github.com/Catholic-Design/hojo-app/blob/main/src/pages/OnBoarding/index.tsx), we can see the import of isolated CSS module:
 
 ```tsx
 import styles from './OnBoarding.module.scss'
@@ -39,4 +39,4 @@ return (
 
 We can see that the stylesheet's name must follow the pattern `*.module.scss` and is imported as an object to use within the `tsx` file.
 
-By this way, both [OnBoarding page](src/pages/OnBoarding/index.tsx) and [Home page](src/pages/Home/index.tsx) can have duplicate CSS selectors (such as `.page`) but still don't override each other's styles.  
+By this way, both [OnBoarding page](https://github.com/Catholic-Design/hojo-app/blob/main/src/pages/OnBoarding/index.tsx) and [Home page](https://github.com/Catholic-Design/hojo-app/blob/main/src/pages/Home/index.tsx) can have duplicate CSS selectors (such as `.page`) but still don't override each other's styles.  
